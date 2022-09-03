@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node scr/index",
-    "dev": "nodemon scr/index"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "url": "https://github.com/Mr-Nihility/goit-node-hw-01/issues"
   },
   "homepage": "https://github.com/Mr-Nihility/goit-node-hw-01#readme",
-  "dependencies": {
+  "devDependencies": {
     "nodemon": "^2.0.19"
   }
 }
